@@ -1,0 +1,5 @@
+install.packages("alr4") 
+library(alr4)
+head(walleye,3)
+n=nrow(walleye)
+plot(walleye$length, walleye$length*runif(n))
